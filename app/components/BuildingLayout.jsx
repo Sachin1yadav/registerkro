@@ -3,27 +3,26 @@ import React from "react";
 
 const BuildingLayout = () => {
   return (
-    <div className="flex flex-col lg:flex-row md:flex-row   md:w-lg-[75%] w-[90%] lg:w-[75%] py-[50px] justify-between items-center m-auto gap-[50px]       ">
+    <div className="flex flex-col lg:flex-row md:flex-row md:w-lg-[75%] w-[90%] lg:w-[75%] py-[50px] justify-between items-center m-auto gap-[50px]">
       <div className="md:w-[50%] w-[90%] lg:w-[50%]">
         <Image src="/buld.png" width={450} height={450} alt="logo" />
       </div>
-      <div className="flex flex-col gap-[30px]   p-[10px] md:w-[50%] w-[90%] lg:w-[50%]">
-        <div className="flex flex-col w-[100%]     gap-[10px]">
+      <div className="flex flex-col gap-[30px] p-[10px] md:w-[50%] w-[90%] lg:w-[50%]">
+        <div className="flex flex-col w-[100%] gap-[10px]">
           <p className="text-[#000000DE] text-[24px] font-[700]">
             Accessible. Affordable. Adaptable
           </p>
           <p className="text-[#000000DE] text-[13px] font-[400] leading-tight">
-            Whether you're an established enterprise or a scaling startup, your
-            Virtual office should drive your business forward. Our virtual
+            Whether you&apos;re an established enterprise or a scaling startup,
+            your Virtual office should drive your business forward. Our virtual
             office solutions take your business places! (Accessible. Affordable.
             Adaptable)
           </p>
         </div>
-        <div className="flex    items-start  w-[100%] gap-[30px] ">
+        <div className="flex items-start w-[100%] gap-[30px]">
           <div className="w-[90%]">
-            {" "}
             <div className="flex items-start flex-col gap-[10px]">
-              <div className="flex items-center   justify-start  text-left  ">
+              <div className="flex items-center justify-start text-left">
                 <Image
                   src="/sine.png"
                   width={50}
@@ -33,21 +32,19 @@ const BuildingLayout = () => {
                   unoptimized
                 />
               </div>
-
               <p className="text-[#000000DE] text-[20px] font-[500]">
                 Professional Image & Enhanced Credibility
               </p>
               <p className="text-[#6B6B6BDE] text-[12px] font-[400] leading-tight">
-                Elevate your company's image and attract top talent with a
+                Elevate your company&apos;s image and attract top talent with a
                 professional virtual address for websites, business cards, and
                 marketing materials.
               </p>
             </div>
           </div>
           <div className="w-[90%]">
-            {" "}
             <div className="flex flex-col items-start gap-[10px]">
-              <div className="flex items-center   justify-start  text-left  ">
+              <div className="flex items-center justify-start text-left">
                 <Image
                   src="/sine.png"
                   width={50}
@@ -57,7 +54,6 @@ const BuildingLayout = () => {
                   unoptimized
                 />
               </div>
-
               <p className="text-[#000000DE] text-[20px] font-[500]">
                 Unmatched Work Flexibility
               </p>
@@ -68,11 +64,10 @@ const BuildingLayout = () => {
             </div>
           </div>
         </div>
-        <div className="flex  w-[100%] gap-[30px] ">
+        <div className="flex w-[100%] gap-[30px]">
           <div className="w-[90%]">
-            {" "}
             <div className="flex flex-col items-start gap-[10px]">
-              <div className="flex items-center   justify-start  text-left  ">
+              <div className="flex items-center justify-start text-left">
                 <Image
                   src="/sine.png"
                   width={50}
@@ -92,9 +87,8 @@ const BuildingLayout = () => {
             </div>
           </div>
           <div className="w-[90%]">
-            {" "}
             <div className="flex items-start flex-col gap-[10px]">
-              <div className="flex items-center   justify-start  text-left  ">
+              <div className="flex items-center justify-start text-left">
                 <Image
                   src="/sine.png"
                   width={50}

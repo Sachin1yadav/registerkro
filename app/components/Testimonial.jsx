@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 const SlideContent1 = () => (
-  <div className="flex items-center gap-[30px] flex-col justify-center  md:lg-[75%] m-auto w-[90%] lg:w-[75%] h-full   rounded-lg p-4">
+  <div className="flex items-center gap-[30px] flex-col justify-center md:lg-[75%] m-auto w-[90%] lg:w-[75%] h-full rounded-lg p-4">
     <div>
       <p className="text-[#000000] text-[32px] font-[700]">
         Client Testimonial{" "}
@@ -30,7 +30,7 @@ const SlideContent1 = () => (
 );
 
 const SlideContent2 = () => (
-  <div className="flex items-center gap-[30px] flex-col justify-center  md:lg-[75%] m-auto w-[90%] lg:w-[75%] h-full   rounded-lg p-4">
+  <div className="flex items-center gap-[30px] flex-col justify-center md:lg-[75%] m-auto w-[90%] lg:w-[75%] h-full rounded-lg p-4">
     <div>
       <p className="text-[#000000] text-[32px] font-[700]">
         Client Testimonial{" "}
@@ -57,11 +57,11 @@ const SlideContent2 = () => (
 );
 
 const components = [
-  <SlideContent1 />,
-  <SlideContent2 />,
-  <SlideContent1 />, // Repeat or use different components as needed
-  <SlideContent2 />,
-  <SlideContent1 />,
+  <SlideContent1 key="slide1" />,
+  <SlideContent2 key="slide2" />,
+  <SlideContent1 key="slide3" />,
+  <SlideContent2 key="slide4" />,
+  <SlideContent1 key="slide5" />,
 ];
 
 const Testimonial = () => {
@@ -81,7 +81,7 @@ const Testimonial = () => {
 
   return (
     <div className="relative w-[90%] m-auto my-[50px]">
-      <div className="relative  lg:h-[400px] md:h-[400px] h-[90vh] overflow-hidden rounded-lg  ">
+      <div className="relative lg:h-[400px] md:h-[400px] h-[90vh] overflow-hidden rounded-lg">
         {components.map((Component, index) => (
           <div
             key={index}
