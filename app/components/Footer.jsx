@@ -149,7 +149,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <div className="bg-[#2B2F33] text-[#C2C2C2] py-[15px] w-[100%] flex justify-center items-center text-[15px] font-[700]">
+      <div className="bg-[#2B2F33] text-[#C2C2C2] px-[20px] py-[15px] w-[100%] flex justify-center items-center text-[15px] font-[700]">
         <p className=" m-auto">
           © 2024 - Safe Ledger Private Limited. All rights reserved.
         </p>

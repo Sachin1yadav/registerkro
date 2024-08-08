@@ -15,8 +15,8 @@ const ProcessCord = () => {
           Procedure to obtain Virtual office address.
         </p>
       </div>
-      <div className="flex lg:w-[75%] md:w-[75%] w-[90%] flex-col lg:flex-row md:flex-row justify-center items-center gap-[50px] m-auto">
-        <div className="flex flex-col w-[90%] lg:w-[80%] md:w-[80%] p-[20px] gap-[20px] justify-center items-center relative">
+      <div className="relative flex lg:w-[75%] md:w-[75%] w-[90%] flex-col lg:flex-row md:flex-row justify-center items-center lg:gap-[50px] gap-[10px] md:gap-[50px] m-auto">
+        <div className="flex flex-col w-[90%] lg:w-[80%] md:w-[80%] md:p-[20px] p-[10px] lg:p-[20px] gap-[20px] justify-center items-center relative">
           <div className="bg-custom-gradient rounded-tr-3xl rounded-br-3xl rounded-tl-3xl w-[100px] h-[100px] flex justify-center items-center">
             <Image
               src="/img11.png"
@@ -34,15 +34,9 @@ const ProcessCord = () => {
             Reach out to our friendly customer support team through chat, email,
             or phone. They&apos;ll guide you through the process.
           </p>
-          {/* <div className="absolute lg:top-[50%] lg:right-[-25px] lg:transform lg:-translate-y-1/2 hidden lg:block">
-            <Image src="/ar.png" width={150} height={150} alt="Arrow" />
-          </div>
-          <div className="lg:hidden absolute bottom-[-30px]">
-            <Image src="/ar.png" width={150} height={150} alt="Arrow" />
-          </div> */}
         </div>
 
-        <div className="flex flex-col w-[90%] lg:w-[80%] md:w-[80%] p-[20px] gap-[20px] justify-center items-center relative mt-[50px] lg:mt-0">
+        <div className="flex flex-col w-[90%] lg:w-[80%] md:w-[80%] md:p-[20px] p-[10px] lg:p-[20px] gap-[20px] justify-center items-center relative mt-[50px] lg:mt-0">
           <div className="bg-custom-gradient rounded-tr-3xl rounded-br-3xl rounded-tl-3xl w-[100px] h-[100px] flex justify-center items-center">
             <Image
               src="/img222.png"
@@ -60,15 +54,9 @@ const ProcessCord = () => {
             Reach out to our friendly customer support team through chat, email,
             or phone. They&apos;ll guide you through the process.
           </p>
-          {/* <div className="absolute lg:top-[50%] lg:right-[-25px] lg:transform lg:-translate-y-1/2 hidden lg:block">
-            <Image src="/ar.png" width={150} height={150} alt="Arrow" />
-          </div>
-          <div className="lg:hidden absolute bottom-[-30px]">
-            <Image src="/ar.png" width={150} height={150} alt="Arrow" />
-          </div> */}
         </div>
 
-        <div className="flex flex-col w-[90%] lg:w-[80%] md:w-[80%] p-[20px] gap-[20px] justify-center items-center relative mt-[50px] lg:mt-0">
+        <div className="flex flex-col w-[90%] lg:w-[80%] md:w-[80%] md:p-[20px] p-[10px] lg:p-[20px] gap-[20px] justify-center items-center relative mt-[50px] lg:mt-0">
           <div className="bg-custom-gradient rounded-tr-3xl rounded-br-3xl rounded-tl-3xl w-[100px] h-[100px] flex justify-center items-center">
             <Image
               src="/img33.png"
@@ -87,6 +75,44 @@ const ProcessCord = () => {
             or phone. They&apos;ll guide you through the process.
           </p>
         </div>
+
+        {/* Arrows */}
+        <div className="absolute top-[30px]   left-[calc(16.5%+40px)]  transform -translate-y-1/2 hidden lg:block">
+          <Image
+            src="/ar.png"
+            width={200}
+            height={200}
+            alt="Arrow"
+            className="rotate-0"
+          />
+        </div>
+        <div className="absolute top-[100px]    left-[calc(48.66%+80px)] transform -translate-y-1/2 hidden lg:block">
+          <Image
+            src="/ar2.png"
+            width={200}
+            height={200}
+            alt="Arrow"
+            className="rotate-0"
+          />
+        </div>
+        {/* <div className="absolute top-[50px] border-2 border-green-400 left-1/2 transform -translate-x-1/2 lg:hidden">
+          <Image
+            src="/ar.png"
+            width={180}
+            height={180}
+            alt="Arrow"
+            className="rotate-90"
+          />
+        </div> */}
+        {/* <div className="absolute  top-[30px]   left-1/2 transform -translate-x-1/2 lg:hidden mt-[50px]">
+          <Image
+            src="/ar2.png"
+            width={180}
+            height={180}
+            alt="Arrow"
+            className="rotate-90"
+          />
+        </div> */}
       </div>
     </div>
   );
