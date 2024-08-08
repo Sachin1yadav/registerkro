@@ -11,8 +11,14 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "custom-gradient":
+          "linear-gradient(270deg, #D71489 -1.04%, #004788 100%)",
+      },
+      colors: {
+        "gradient-start": "#22417A",
+        "gradient-end": "#3F78E0",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
