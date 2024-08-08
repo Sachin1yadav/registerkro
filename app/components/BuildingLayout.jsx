@@ -5,7 +5,14 @@ const BuildingLayout = () => {
   return (
     <div className="flex flex-col lg:flex-row md:flex-row md:w-lg-[75%] w-[90%] lg:w-[75%] py-[50px] justify-between items-center m-auto gap-[50px]">
       <div className="md:w-[50%] w-[90%] lg:w-[50%]">
-        <Image src="/buld.png" width={450} height={450} alt="logo" />
+        <Image
+          src="/buld.png"
+          width={450}
+          height={450}
+          alt="Building Logo"
+          quality={100}
+          layout="responsive"
+        />
       </div>
       <div className="flex flex-col gap-[30px] p-[10px] md:w-[50%] w-[90%] lg:w-[50%]">
         <div className="flex flex-col w-[100%] gap-[10px]">
@@ -29,7 +36,6 @@ const BuildingLayout = () => {
                   height={50}
                   alt="logo"
                   className="m-auto items-start"
-                  unoptimized
                 />
               </div>
               <p className="text-[#000000DE] text-[20px] font-[500]">
@@ -51,7 +57,6 @@ const BuildingLayout = () => {
                   height={50}
                   alt="logo"
                   className="m-auto items-start"
-                  unoptimized
                 />
               </div>
               <p className="text-[#000000DE] text-[20px] font-[500]">
@@ -74,7 +79,6 @@ const BuildingLayout = () => {
                   height={50}
                   alt="logo"
                   className="m-auto items-start"
-                  unoptimized
                 />
               </div>
               <p className="text-[#000000DE] text-[20px] font-[500]">
@@ -95,7 +99,6 @@ const BuildingLayout = () => {
                   height={50}
                   alt="logo"
                   className="m-auto items-start"
-                  unoptimized
                 />
               </div>
               <p className="text-[#000000DE] text-[20px] font-[500]">

@@ -97,7 +97,8 @@ const Footer = () => {
           </div>
 
           <div className="text-black flex flex-col gap-[20px] md:w-[50%] w-[90%] p-[15px] lg:w-[50%] justify-center items-center py-[20px]">
-            <Image src="/logo.png" alt="logo" width={100} height={100} />
+            <Image src="/logob.png" alt="logo" width={100} height={100} />
+           
             <p className="text-[24px] font-[600]">
               Feel free to connect with us
             </p>
@@ -148,6 +149,11 @@ const Footer = () => {
           </div>
         </div>
       </section>
+      <div className="bg-[#2B2F33] text-[#C2C2C2] py-[15px] w-[100%] flex justify-center items-center text-[15px] font-[700]">
+        <p className=" m-auto">
+          © 2024 - Safe Ledger Private Limited. All rights reserved.
+        </p>
+      </div>
     </div>
   );
 };

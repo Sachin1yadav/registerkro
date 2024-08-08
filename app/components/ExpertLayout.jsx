@@ -4,12 +4,12 @@ import React from "react";
 const ExpertLayout = () => {
   return (
     <div className="flex w-[75%] m-auto gap-[30px] py-[50px]  justify-between items-center">
-      <div className="flex hidden lg:block md:block  flex-col gap-[40px] w-[50%] justify-center items-start text-start">
-        <div className="flex gap-[20px] items-start">
+      <div className="lg:flex hidden  md:flex     flex-col md:gap-[40px] lg:gap-[40px] w-[50%] justify-center items-start text-start">
+        <div className="flex gap-[20px]  items-start">
           <Image src="/call.png" width={50} height={50} alt="logo" />
 
-          <p className="text-[#252B42] text-[28px]">
-            <span className="font-[700]">Expert Guidance:</span> Consultation
+          <p className="text-[#252B42] leading-tight text-[26px]">
+            <span className="font-[600]  ">Expert Guidance:</span> Consultation
             and Company Formation
           </p>
         </div>
@@ -20,7 +20,7 @@ const ExpertLayout = () => {
           Talk to an Expert
         </button>
       </div>
-      <div className="  md:-w-[45%] w-[90%] m-auto lg:w-[45%]  rounded-t-3xl">
+      <div className="  md:-w-[45%] w-[90%] m-auto lg:w-[45%]  rounded-t-2xl">
         <Image
           src="/pr.png"
           width={400}
